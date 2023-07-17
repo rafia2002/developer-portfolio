@@ -229,3 +229,30 @@ flex-shrink: 0;
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer style */
+
+footer{
+    margin-top: 100px;
+    gap: 100px;
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
+.footer-coloum{
+    width: 50%;
+}
+.social-link a{
+    margin-right: 25px;
+}
+
+.contact input[type="email"],input[type="text"],textarea {
+    color: #757575;
+    display: block;
+    margin: 24px;
+    padding: 18px 30px;
+    border: 0px;
+    border-radius: 5px;
+   background: #FFF;
+   width: 100%;
+}
