@@ -3,6 +3,16 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+.btn-primary {
+    padding: 15px 35px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 700;
+}
 
 
 /* nav related style */
@@ -10,6 +20,7 @@ nav {
     display: flex;
     justify-content:  space-between;
     align-items: center;
+    margin 0px 200px;
 
 }
 
@@ -31,7 +42,6 @@ nav>ul {
     font-weight: 800;
     line-height: normal;
 }
-
 nav li {
     margin: 50px;
 }
@@ -40,14 +50,21 @@ nav a {
     text-decoration: none;
     color #FD6E0A;
 }
+/* header related style */
+.header{
+    background-color: #fff8f3;
 
-.btn-primary {
-    padding: 15px 35px;
-    border-radius: 5px;
-    background: #FD6E0A;
-    border: 0;
-    color: white;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
 }
+.bannar
+{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.bannar .profile-picture{
+width: 500px;
+/* height: 676px;
+flex-shrink: 0; */
+}
+
+
